@@ -1,0 +1,46 @@
+.process {
+    width: 450px;
+    margin-right: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    height: 100%;
+    .tittle{
+      //font-family: "Roboto";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 1.6rem;
+            margin-bottom:25px;
+            margin-top: 0px;
+            //color: #4f4f4f;
+    }
+    h5 {
+      margin-bottom: 2rem;
+      font-weight: 400;
+      color: rgb(245, 249, 245);
+      span {
+        color: yellow;
+      }
+    }
+    h4 {
+      color: rgb(245, 249, 245);
+      font-weight: 400;
+    }
+    textarea {
+      margin-top: 0.5rem;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 1.2rem;
+      border-radius: 5px;
+      width: 100%;
+    }
+    .incoming {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+    .crypt {
+      width: 100%;
+      height: 100%;
+    }
+  }
